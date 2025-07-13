@@ -80,3 +80,26 @@ Build command 用 hexo generate 會有錯誤：
 ```
 
 改成 `npm run build` 和 package.json (似乎是 npm 安裝 hexo-cli 產生的，裡面有 scripts 等設定) 才解決。
+
+看到 IP 的部分下意識懷疑會不會有 AI 幻覺
+
+> dig _github-pages-challenge-shen-jing.shenjing.me +nostats +nocomments +nocmd TXT
+;_github-pages-challenge-shen-jing.shenjing.me. IN TXT
+shenjing.me.            1800    IN      SOA     harmony.ns.cloudflare.com. dns.cloudflare.com. 2377898332 10000 2400 604800 1800
+
+
+照著 [Verifying a domain for your user site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-user-site)
+按下 Verify 會顯示：
+
+到 CF 新增 TXT record：
+
+就會變成綠綠的 Verified 了！
+此時 dig 結果：
+> dig _github-pages-challenge-shen-jing.shenjing.me +nostats +nocomments +nocmd TXT
+;_github-pages-challenge-shen-jing.shenjing.me. IN TXT
+_github-pages-challenge-shen-jing.shenjing.me. 300 IN TXT "5f4ab1ac05827ad551a3e884fca1a9"
+
+GitHub 要你在家門口貼一張專屬小紙條（TXT 記錄），證明這個家（網域）真的是你的。貼好後通知 GitHub，他們就會認可你這個新網址
+
+re
+用手機 4G 測試是否已經生效
