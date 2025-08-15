@@ -5,15 +5,15 @@
 # Site
 title: Shen Jing
 subtitle: ''
-description: '審經，偶爾神經🤪'
+description: '審經，偶爾神經'
 keywords:
 author: Shen Jing
-language: en
+language: zh-TW
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://shenjing.me
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

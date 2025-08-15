@@ -16,9 +16,9 @@ menu:
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   關於:
-    關於本人: /about/ || anzhiyu-icon-paper-plane
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+    關於本人: /about/
+    # 闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    # 随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -110,7 +110,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -140,7 +140,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://maidragon.jp/movie/character/img/canna_visual.png?3
   effect: false
 
 # Disable all banner image
@@ -244,7 +244,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
@@ -300,7 +300,7 @@ noticeOutdate:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: facebook,twitter
 
 # AddToAny
 # https://www.addtoany.com/
@@ -427,7 +427,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2025
   custom_text:
   runtime:
     enable: false
@@ -783,7 +783,7 @@ subtitle:
 
 # Loading Animation (加载动画)
 preloader:
-  enable: true
+  enable: false
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -1048,7 +1048,7 @@ css_prefix: true
 
 # 首页顶部相关配置
 home_top:
-  enable: true # 开关
+  enable: false # 开关
   timemode: date #date/updated
   title: 生活明朗
   subTitle: 万物可爱。
@@ -1074,11 +1074,12 @@ home_top:
     enable: false
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
-  banner:
-    tips: 新品主题
-    title: Theme-AnZhiYu
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://docs.anheyu.com/
+  # banner:
+  #   enable: false
+  #   tips: 新品主题
+  #   title: Theme-AnZhiYu
+  #   image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+  #   link: https://docs.anheyu.com/
 
 # 朋友圈配置
 friends_vue:
@@ -1090,7 +1091,7 @@ friends_vue:
 
 # 深色模式粒子效果canvas
 universe:
-  enable: true
+  enable: false
 
 # 页面卡片顶部气泡升起效果
 bubble:
@@ -1108,7 +1109,7 @@ LA:
 
 # 标签卖萌
 diytitle:
-  enable: true
+  enable: false
   leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
   backTitle: ♪(^∇^*)欢迎肥来！
 
@@ -1127,7 +1128,7 @@ comment_barrage_config:
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
 nav_music:
-  enable: true
+  enable: false
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 8152976493
   server: netease
@@ -1183,7 +1184,7 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: true
+  enable: false
   gptName: AnZhiYu
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
