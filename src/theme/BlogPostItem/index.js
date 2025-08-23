@@ -16,7 +16,24 @@ export default function BlogPostItem({children, className}) {
   return (
     <BlogPostItemContainer className={clsx(containerClassName, className)}>
       <BlogPostItemHeader />
-      <BlogPostItemContent>{children}</BlogPostItemContent>
+      <BlogPostItemContent>{children}
+      {/* 這裡是文章內容底部 -- 加上 Giscus 留言區 */}
+      <Giscus
+        repo="Shen-Jing/Shen-Jing.github.io"
+        repoId="MDEwOlJlcG9zaXRvcnkxMzMyOTcyMDY="
+        category="General"
+        categoryId="DIC_kwDOB_H0Ns4Cs5Bg"
+        mapping="title"
+        strict="0"
+        reactionsEnabled="1"
+        emitMetadata="0"
+        inputPosition="top"
+        theme="preferred_color_scheme"
+        lang="zh-TW"
+        loading="lazy"
+        crossorigin="anonymous"
+      />
+      </BlogPostItemContent>
       <BlogPostItemFooter />
     </BlogPostItemContainer>
   );
