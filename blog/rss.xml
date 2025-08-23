@@ -4,10 +4,37 @@
         <title>My Site Blog</title>
         <link>https://Shen-Jing.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Sun, 17 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Docusaurus 記錄]]></title>
+            <link>https://Shen-Jing.github.io/blog/Docusaurus_settings</link>
+            <guid>https://Shen-Jing.github.io/blog/Docusaurus_settings</guid>
+            <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first post on Docusaurus.]]></description>
+            <content:encoded><![CDATA[<p>這篇用來當作自己的小筆記，或是如果荒廢多時未更新可以拿來當 cheat sheet。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="文章相關">文章相關<a href="https://shen-jing.github.io/blog/Docusaurus_settings#%E6%96%87%E7%AB%A0%E7%9B%B8%E9%97%9C" class="hash-link" aria-label="Direct link to 文章相關" title="Direct link to 文章相關">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="新增文章">新增文章<a href="https://shen-jing.github.io/blog/Docusaurus_settings#%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0" class="hash-link" aria-label="Direct link to 新增文章" title="Direct link to 新增文章">​</a></h3>
+<ol>
+<li><code>blog/</code></li>
+<li>md 檔最前面要有 <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter" target="_blank" rel="noopener noreferrer">front matter</a></li>
+<li><code>npm run start</code> 本地測試，隨改隨見</li>
+<li><code>npm run deploy</code>（部署到 Pages）</li>
+</ol>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="front-matter">front matter<a href="https://shen-jing.github.io/blog/Docusaurus_settings#front-matter" class="hash-link" aria-label="Direct link to front matter" title="Direct link to front matter">​</a></h4>
+<ul>
+<li>`sluga: 網址路徑（可自訂）</li>
+<li><code>authors</code>: 去掉就不會有作者資訊（大頭貼那些）<!-- -->
+<ul>
+<li>題外話：填入 <code>authors.yml</code> 沒有的作者還會有 deploy error，防呆做挺好的😆</li>
+</ul>
+</li>
+<li><code>last_update</code>: 可和 <code>date</code> 區分</li>
+</ul>]]></content:encoded>
+            <category>Docusaurus</category>
+        </item>
         <item>
             <title><![CDATA[MuseScore 新手記錄]]></title>
             <link>https://Shen-Jing.github.io/blog/My MuseScore</link>
