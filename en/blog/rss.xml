@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Shen Jing Blog</title>
+        <link>https://Shen-Jing.github.io/en/blog</link>
+        <description>Shen Jing Blog</description>
+        <lastBuildDate>Sat, 23 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Docusaurus 記錄]]></title>
+            <link>https://Shen-Jing.github.io/en/blog/Docusaurus_settings</link>
+            <guid>https://Shen-Jing.github.io/en/blog/Docusaurus_settings</guid>
+            <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first post on Docusaurus.]]></description>
+            <content:encoded><![CDATA[<p>這篇用來當作自己的小筆記，或是如果荒廢多時未更新可以拿來當 cheat sheet。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="文章相關">文章相關<a href="https://shen-jing.github.io/en/blog/Docusaurus_settings#%E6%96%87%E7%AB%A0%E7%9B%B8%E9%97%9C" class="hash-link" aria-label="Direct link to 文章相關" title="Direct link to 文章相關">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="新增文章">新增文章<a href="https://shen-jing.github.io/en/blog/Docusaurus_settings#%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0" class="hash-link" aria-label="Direct link to 新增文章" title="Direct link to 新增文章">​</a></h3>
+<ol>
+<li><code>blog/</code></li>
+<li>md 檔最前面要有 <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter" target="_blank" rel="noopener noreferrer">front matter</a></li>
+<li><code>npm run start</code> 本地測試，隨改隨見</li>
+<li><code>npm run deploy</code>（部署到 Pages）</li>
+</ol>
+<ul>
+<li>要最快看到實際改動可用無痕</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="front-matter">front matter<a href="https://shen-jing.github.io/en/blog/Docusaurus_settings#front-matter" class="hash-link" aria-label="Direct link to front matter" title="Direct link to front matter">​</a></h4>
+<ul>
+<li>`sluga: 網址路徑（可自訂）</li>
+<li><code>authors</code>: 去掉就不會有作者資訊（大頭貼那些）<!-- -->
+<ul>
+<li>題外話：填入 <code>authors.yml</code> 沒有的作者還會有 deploy error，防呆做挺好的😆</li>
+</ul>
+</li>
+<li><code>last_update</code>: 可和 <code>date</code> 區分</li>
+</ul>]]></content:encoded>
+            <category>Docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[MuseScore 新手記錄]]></title>
+            <link>https://Shen-Jing.github.io/en/blog/My MuseScore</link>
+            <guid>https://Shen-Jing.github.io/en/blog/My MuseScore</guid>
+            <pubDate>Sun, 17 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[MuseScore]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="musescore">MuseScore<a href="https://shen-jing.github.io/en/blog/My%20MuseScore#musescore" class="hash-link" aria-label="Direct link to MuseScore" title="Direct link to MuseScore">​</a></h2>
+<p>最近偶爾會利用週日無法使用琴房的時間打譜，但也只限於臨時興起、想認點譜的頻率，有些需要用到的到了下次興起時就又忘了，因此特此記錄一下（版本：4.5.2）：</p>
+<p>基本使用與介紹請見 <a href="https://nicechord.com/post/musescore-basics/" target="_blank" rel="noopener noreferrer">好和弦的文章</a>。</p>
+<ul>
+<li><code>n</code>: 音符輸入模式。</li>
+<li><code>x</code>: 符桿方向翻轉。</li>
+<li>切換聲部：Ctrl + Alt + 1 或 2，或者如圖用按的</li>
+<li>選「6」切換二分音符，再按「.」變成附點二分音符（3拍）</li>
+<li>連結相同音高的音符：T(ie)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="palettes">Palettes<a href="https://shen-jing.github.io/en/blog/My%20MuseScore#palettes" class="hash-link" aria-label="Direct link to Palettes" title="Direct link to Palettes">​</a></h3>
+<ul>
+<li><em>Dynamics</em>: 漸強漸弱</li>
+<li><em>Keyboard</em>: 踏板</li>
+</ul>]]></content:encoded>
+            <category>Music</category>
+        </item>
+        <item>
+            <title><![CDATA[再見爺爺奶奶]]></title>
+            <link>https://Shen-Jing.github.io/en/blog/2025_farewell_grandparent</link>
+            <guid>https://Shen-Jing.github.io/en/blog/2025_farewell_grandparent</guid>
+            <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[8 月初，也就是阿公過世的 4 個月後，阿嬤也過世了。]]></description>
+            <content:encoded><![CDATA[<p>8 月初，也就是阿公過世的 4 個月後，阿嬤也過世了。
+辦完告別式的隔天晚上，不明原因突然醒來，但也想不太清楚到底是做了什麼噩夢，只留意到情緒中還帶點緬懷奶奶的餘悸。</p>
+<p>苦於排解心中對於死別的鬱悶睡不著覺，最後<a href="https://www.threads.com/@shen.jing/post/DNJYuk1zJOh?sort_order=recent" target="_blank" rel="noopener noreferrer">在 Threads 上發了貼文詢問書單</a>：</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="書單">書單<a href="https://shen-jing.github.io/en/blog/2025_farewell_grandparent#%E6%9B%B8%E5%96%AE" class="hash-link" aria-label="Direct link to 書單" title="Direct link to 書單">​</a></h3>
+<ul>
+<li>(@iris20016666)《廚房》、《令人著迷的生與死》、《奶奶的夏威夷祭祀》、《人》、《在我墳上起舞》</li>
+<li>(@ecilaaliceecilaalice)《安寧伴行》、《獅子的點心》</li>
+<li>(@janesbooknote)《當呼吸化為空氣》</li>
+<li>(@iann_2222)《在天堂遇見的五個人》、《令人著迷的生與死》</li>
+<li>(@boundary.bookstore)《在終將告別前，學習哀傷》</li>
+<li>(@ohggmei)《歡迎入住，廢柴人生旅館》</li>
+<li>(@kidneyst)《在天堂遇見的五個人》、《潛水鐘與蝴蝶》</li>
+<li>(@lu127707)《死給一次才知道愛》</li>
+<li>(@vietquyen2023)《獅子的點心》、《生命的停車場》</li>
+<li>(@meiching.m.liu)《西藏生死書》</li>
+<li>(@therapy_relax__health)《爺爺的天堂筆記本》</li>
+<li>(@oakybba)《沒有神也沒有佛》</li>
+</ul>]]></content:encoded>
+            <category>生死</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://Shen-Jing.github.io/en/blog/welcome</link>
+            <guid>https://Shen-Jing.github.io/en/blog/welcome</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
