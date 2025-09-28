@@ -43,6 +43,10 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+           // Path to the docs content directory on the file system, relative to site directory.
+          path: 'mediashelf',
+          // URL route
+          routeBasePath: 'mediashelf',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -76,17 +80,13 @@ const config: Config = {
         src: 'img/ShenJing_logo_120_80.png',
       },
       items: [
+        {to: '/blog', label: '貼文', position: 'left'},
+        {to: '/blog/archive', label: '貼文列表', position: 'left'},
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'mediaShelfSidebar',
           position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/Shen-Jing',
-          label: 'GitHub',
-          position: 'right',
+          label: '媒體櫃',
         },
       ],
     },
@@ -94,20 +94,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Community',
+          title: '外部連結',
           items: [
             {
               label: 'Steam',
               href: 'https://steamcommunity.com/id/sortof-jing/',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
             },
             {
               label: 'GitHub',
@@ -123,6 +114,17 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 85,           // 壓縮品質（0~100）
+        steps: 2,              // 產生中間尺寸數量
+        disableInDev: false,   // 是否在開發模式禁用
+      }
+    ],
+  ],
 };
 
 export default config;
