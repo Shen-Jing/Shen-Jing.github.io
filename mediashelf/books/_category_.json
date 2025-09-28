@@ -1,8 +1,8 @@
 {
-  "label": "Tutorial - Basics",
+  "label": "書籍",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "實體書、電子書"
   }
 }

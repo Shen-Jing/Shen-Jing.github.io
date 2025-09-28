@@ -1,7 +1,6 @@
 ---
 slug: 2025_farewell_grandparent
 title: 再見爺爺奶奶
-authors: Shen-Jing
 tags: [生死]
 date: 2025-08-16
 ---
