@@ -1,7 +1,6 @@
 ---
 slug: My MuseScore
 title: MuseScore 新手記錄
-authors: Shen-Jing
 tags: [Music]
 date: 2025-08-17
 ---
