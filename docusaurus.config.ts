@@ -88,6 +88,7 @@ const config: Config = {
           position: 'left',
           label: '媒體櫃',
         },
+        {to: '/blog/about', label: '關於我', position: 'left'},
       ],
     },
     footer: {
@@ -123,6 +124,15 @@ const config: Config = {
         steps: 2,              // 產生中間尺寸數量
         disableInDev: false,   // 是否在開發模式禁用
       }
+    ],
+  ],
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en", "zh"],
+      },
     ],
   ],
 };
