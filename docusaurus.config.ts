@@ -88,7 +88,7 @@ const config: Config = {
           position: 'left',
           label: '媒體櫃',
         },
-        {to: '/blog/about', label: '關於我', position: 'left'},
+        {to: '/about', label: '關於我', position: 'left'},
       ],
     },
     footer: {
