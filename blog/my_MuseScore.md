@@ -1,6 +1,6 @@
 ---
 slug: My MuseScore
-title: MuseScore 新手記錄
+title: 【Cheat Sheet】MuseScore 新手記錄
 tags: [Music]
 date: 2025-08-17
 ---
