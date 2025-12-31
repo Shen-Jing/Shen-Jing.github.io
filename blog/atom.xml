@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Shen-Jing.github.io/blog</id>
     <title>Shen Jing Blog</title>
-    <updated>2025-10-01T00:00:00.000Z</updated>
+    <updated>2025-12-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Shen-Jing.github.io/blog"/>
     <subtitle>Shen Jing Blog</subtitle>
     <icon>https://Shen-Jing.github.io/img/ShenJing_favicon48_48.png</icon>
+    <entry>
+        <title type="html"><![CDATA[【音樂】Vibe Coding：節奏機]]></title>
+        <id>https://Shen-Jing.github.io/blog/Metronome</id>
+        <link href="https://Shen-Jing.github.io/blog/Metronome"/>
+        <updated>2025-12-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在 不管什麼節奏，都能彈對的練習秘訣！ 中，好和弦老師把五線譜的節奏這件事講的非常好懂，對於最近開始在用哈農練變奏的我，實在是獲益良多！]]></summary>
+        <content type="html"><![CDATA[<p>在 <a href="https://youtu.be/NkYhAmIGSOw?si=phI9voj6dWKsHx0A" target="_blank" rel="noopener noreferrer">不管什麼節奏，都能彈對的練習秘訣！</a> 中，好和弦老師把五線譜的節奏這件事講的非常好懂，對於最近開始在用哈農練變奏的我，實在是獲益良多！<br>
+<!-- -->其中他還有科普了一下 Step Sequencer 這種玩意，只可惜在網路上找了一下沒特別好用的，要不就是要付費（也不知道實際好用程度）的 app。</p>
+<p>最近剛好將 Google One 的訂閱升級，剛好來試一下他們家的 Antigravity 的 Vibe Coding 體驗如何。<br>
+<!-- -->成果如圖：
+<img decoding="async" loading="lazy" alt="My metronome" src="https://shen-jing.github.io/assets/images/Metronome-e00c578d8260ef146d24188a4fb88140.png" width="793" height="1820" class="img_ev3q"></p>
+<p>開源專案傳送門（含 README）：<a href="https://github.com/Shen-Jing/metronome" target="_blank" rel="noopener noreferrer">https://github.com/Shen-Jing/metronome</a></p>
+<p>大概歷經了幾次來回改進需求：</p>
+<ul>
+<li>不知道 BPM 該調多快：提供自定義最小的每格節奏速度 (Subdivision BPM)</li>
+<li>想要定義幾格為一拍：Steps per Beat<!-- -->
+<ul>
+<li>圖例：4 格為一拍，以 BPM 60 執行每 4 格；像我這個例子就是在模擬「4 分音符為 1 拍，最小節奏單位為 16 分音符，因此將 1 拍劃為 4 格」</li>
+</ul>
+</li>
+<li>每次重新劃格子很麻煩：支援 Save &amp; Load</li>
+</ul>
+<p>為了方便自己從手機叫出來用，我把它放到我的網站上了：<a href="https://shenjing.me/metronome" target="_blank" rel="noopener noreferrer">https://shenjing.me/metronome</a></p>
+<p>最後也要推廣老師的 <a href="https://nicechord.com/post/metronome-v3/" target="_blank" rel="noopener noreferrer">不囉嗦的節拍器</a>，受他啟發我才會以靜態網頁的形式，否則我可能會往桌面應用程式或是 app 等較複雜的手段去發想。<br>
+<!-- -->（也是因為我不想算出拍子後還要算數學，所以才寫這個程式XD）</p>]]></content>
+        <category label="Music" term="Music"/>
+        <category label="Programming" term="Programming"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【記錄】Kobo 劃記遺失驚魂記]]></title>
         <id>https://Shen-Jing.github.io/blog/kobo-highlights-lost</id>
@@ -14,7 +42,7 @@
         <updated>2025-10-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[前言]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言<a href="https://shen-jing.github.io/blog/kobo-highlights-lost#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="前言的直接連結" title="前言的直接連結" translate="no">​</a></h2>
-<p>去年入坑閱讀器 <sup><a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fn-ereader-a4d644" id="user-content-fnref-ereader-a4d644" data-footnote-ref="true" aria-describedby="footnote-label" class="footnoteRefStickyNavbar_i6ta">1</a></sup> 時，我也一併試用了 Readwise 2 個月，主要是看上它可以同步 Kobo 的閱讀劃記，並且輸出到 Notion。<br>
+<p>去年入坑閱讀器 <sup><a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fn-ereader-6585c0" id="user-content-fnref-ereader-6585c0" data-footnote-ref="true" aria-describedby="footnote-label" class="footnoteRefStickyNavbar_i6ta">1</a></sup> 時，我也一併試用了 Readwise 2 個月，主要是看上它可以同步 Kobo 的閱讀劃記，並且輸出到 Notion。<br>
 <!-- -->實際使用後最吸引我的是「劃記回顧」的功能，可以指定哪幾本書要以何等頻率發送 email 複習。由於我主要讀的是比較偏理論的書籍，所以非常中意這個功能！</p>
 <p>不過問題是我不太想再增加我手上的訂閱產品了，雖然 6 鎂 / 月看似還好，但累積起來也是挺可觀的……而且當時還不確定自己能不能堅持閱讀的習慣。<br>
 <!-- -->那時剛好有訂 Perplexity 付費版，於是就趁這個機會和它協作出一個也能匯出劃記到 Notion 書庫、每日寄出 email 的小腳本。</p>
@@ -23,7 +51,7 @@
 <p>以《我想跟你好好說話》為例，這是輸出到 Notion 的樣子（預設直輸到頁面尾端，並以 toggleable 的 H3 標題為區塊）：<br>
 <img decoding="async" loading="lazy" alt="talk" src="https://shen-jing.github.io/assets/images/Notion_Highlights-167d114fba06efa22acb1438c17d9c3e.png" width="1076" height="1032" class="img_ev3q"></p>
 <p>還有我愛的複習功能：<br>
-<img decoding="async" loading="lazy" alt="review" src="https://shen-jing.github.io/assets/images/to_email-33e451d36ecafa5f03287c60866961ff.jpg" width="1606" height="293" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" alt="review" src="https://shen-jing.github.io/assets/images/to_email-2ff813eb813cbb9e4e78a75fee1f49b5.png" width="3211" height="586" class="img_ev3q"></p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="主要難點">主要難點<a href="https://shen-jing.github.io/blog/kobo-highlights-lost#%E4%B8%BB%E8%A6%81%E9%9B%A3%E9%BB%9E" class="hash-link" aria-label="主要難點的直接連結" title="主要難點的直接連結" translate="no">​</a></h4>
 <ul>
 <li>KoboReader.sqlite 的 Bookmark 資料排序困難，有 <code>StartContainerPath</code>，但資訊不夠充足，排下去亂成一團。<br>
@@ -41,7 +69,7 @@
 <li>用 .env 包機密資訊</li>
 <li>用 Python 寄 email</li>
 <li>用 Python 串 Notion API：這點 AI 真的幫了大忙，省去慢慢看官方文件的時間</li>
-<li>複習 SQL <sup><a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fn-sql-a4d644" id="user-content-fnref-sql-a4d644" data-footnote-ref="true" aria-describedby="footnote-label" class="footnoteRefStickyNavbar_i6ta">2</a></sup></li>
+<li>複習 SQL <sup><a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fn-sql-6585c0" id="user-content-fnref-sql-6585c0" data-footnote-ref="true" aria-describedby="footnote-label" class="footnoteRefStickyNavbar_i6ta">2</a></sup></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="事件如何發生">事件如何發生<a href="https://shen-jing.github.io/blog/kobo-highlights-lost#%E4%BA%8B%E4%BB%B6%E5%A6%82%E4%BD%95%E7%99%BC%E7%94%9F" class="hash-link" aria-label="事件如何發生的直接連結" title="事件如何發生的直接連結" translate="no">​</a></h2>
 <p>在多開閱讀（同時期不只讀一本書）下，我大概是一個月會有一本書讀完並需要整理劃記，這也成為我會手動備份 KoboReader.sqlite 的時機點。<br>
@@ -53,7 +81,7 @@
 <!-- -->推測可能是因為底層還沒將 sqlite-shm (Shared Memory) 或 sqlite-wal (Write-Ahead Logging) 等等的檔案整合回去（有誤還敬請斧正，我外行XD）。</p>
 <p>這時最奇妙的是，我再重新插線閱讀器取出 sqlite，問題依舊存在——我甚至開始懷疑是不是我 <kbd>Ctrl</kbd> <kbd>c</kbd> / <kbd>v</kbd> 太順，所以不小心把毀損的檔案覆蓋掉閱讀器上的檔案。</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="debug-思路">Debug 思路<a href="https://shen-jing.github.io/blog/kobo-highlights-lost#debug-%E6%80%9D%E8%B7%AF" class="hash-link" aria-label="Debug 思路的直接連結" title="Debug 思路的直接連結" translate="no">​</a></h2>
-<p>事到如今只能認了，不過還是記錄一些 debug 過程<sup><a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fn-memo-a4d644" id="user-content-fnref-memo-a4d644" data-footnote-ref="true" aria-describedby="footnote-label" class="footnoteRefStickyNavbar_i6ta">3</a></sup>，也算是更認識到 Kobo 有哪些資料可以運用吧。</p>
+<p>事到如今只能認了，不過還是記錄一些 debug 過程<sup><a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fn-memo-6585c0" id="user-content-fnref-memo-6585c0" data-footnote-ref="true" aria-describedby="footnote-label" class="footnoteRefStickyNavbar_i6ta">3</a></sup>，也算是更認識到 Kobo 有哪些資料可以運用吧。</p>
 <p>首先是原本的 SQL 語句如何將存有劃記的書本抓出來：<br>
 <!-- -->Bookmark 表並沒有記錄書名，有的是 <code>VolumeID</code>，而 content 表記錄各種書籍相關的資訊，因此要用 <code>Bookmark.VolumeID = content.BookID</code> 去做吻合。</p>
 <div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain"> Bookmark</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">VolumeID</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> Bookmark</span><span class="token punctuation" style="color:#393A34">.</span><span class="token keyword" style="color:#00009f">Text</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> Bookmark</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">Annotation</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> Bookmark</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">DateCreated</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> Bookmark</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">DateModified</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> content</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">BookTitle</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> content</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">Title</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> content</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">Attribution </span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> Bookmark </span><span class="token keyword" style="color:#00009f">INNER</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">JOIN</span><span class="token plain"> content </span><span class="token keyword" style="color:#00009f">ON</span><span class="token plain"> Bookmark</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">VolumeID </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> content</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">BookID</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
@@ -64,7 +92,7 @@
 <!-- -->（有意思的是，<code>BookId</code> 為空！從 <code>ImageId</code> 與 <code>Description</code> 非空推測：可能是封面頁）</p>
 <table><thead><tr><th>ContentID</th><th>ContentType</th><th>MimeType</th><th>BookId</th></tr></thead><tbody><tr><td>baf25480-5f8d-48e4-b0d7-bbd004c64f8f</td><td>6</td><td>application/x-kobo-epub+zip</td><td>NULL</td></tr></tbody></table>
 <p>其他則像是記錄書的章節內容（此時會和 <code>VolumeID</code> 會和 <code>BookId</code> 吻合），會有兩筆資料用 <code>Title</code> 分別記錄「第13章　有魔法的箴言」和「xhtml/p-013.xhtml」相似的資料，只差在 <code>ContentType</code> 不同：<br>
-<img decoding="async" loading="lazy" alt="alt text" src="https://shen-jing.github.io/assets/images/image-b6c0f1de6ea51caa8a3060cb1e0ac46b.png" width="3153" height="748" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" alt="ContentType" src="https://shen-jing.github.io/assets/images/sqlite_ContentType-b6c0f1de6ea51caa8a3060cb1e0ac46b.png" width="3153" height="748" class="img_ev3q"></p>
 <p>此時我猜把 Bookmark 表中的 <code>StartContainerPath</code> 結合這裡看到的章節資訊，應該可以做到完全的劃記排序？</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="還原方法">還原方法？<a href="https://shen-jing.github.io/blog/kobo-highlights-lost#%E9%82%84%E5%8E%9F%E6%96%B9%E6%B3%95" class="hash-link" aria-label="還原方法？的直接連結" title="還原方法？的直接連結" translate="no">​</a></h3>
 <p>我拿前一次的備份覆蓋掉現在閱讀器上毀損的資料，再啟動同步：</p>
@@ -88,14 +116,14 @@
 <!-- -->
 <section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://shen-jing.github.io/blog/kobo-highlights-lost#footnote-label" class="hash-link" aria-label="Footnotes的直接連結" title="Footnotes的直接連結" translate="no">​</a></h2>
 <ol>
-<li id="user-content-fn-ereader-a4d644">
-<p>剛好趁 9 月周年慶購入 Kobo Libra Colour（7 吋） <a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fnref-ereader-a4d644" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+<li id="user-content-fn-ereader-6585c0">
+<p>剛好趁 9 月周年慶購入 Kobo Libra Colour（7 吋） <a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fnref-ereader-6585c0" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
 </li>
-<li id="user-content-fn-sql-a4d644">
-<p>上次碰資料庫應該是大二修課、大三做專題，10 年過去了！😱 <a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fnref-sql-a4d644" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+<li id="user-content-fn-sql-6585c0">
+<p>上次碰資料庫應該是大二修課、大三做專題，10 年過去了！😱 <a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fnref-sql-6585c0" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
 </li>
-<li id="user-content-fn-memo-a4d644">
-<p>由於斷斷續續寫這篇文章，等到真的正式記錄已經要 2 週過去，我已經有點看不懂我當初的 memo ㄌ… <a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fnref-memo-a4d644" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+<li id="user-content-fn-memo-6585c0">
+<p>由於斷斷續續寫這篇文章，等到真的正式記錄已經要 2 週過去，我已經有點看不懂我當初的 memo ㄌ… <a href="https://shen-jing.github.io/blog/kobo-highlights-lost#user-content-fnref-memo-6585c0" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
 </li>
 </ol>
 </section>]]></content>
@@ -156,7 +184,7 @@
 </li>
 </ol>
 </section>]]></content>
-        <category label="social" term="social"/>
+        <category label="社交" term="社交"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[【Cheat Sheet】Docusaurus 記錄]]></title>
