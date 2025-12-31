@@ -1,6 +1,6 @@
 ---
 slug: 2025_farewell_grandparent
-title: 再見爺爺奶奶
+title: 【心情札記】再見爺爺奶奶
 tags: [生死]
 date: 2025-08-16
 ---
