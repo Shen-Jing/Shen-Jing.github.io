@@ -17,3 +17,28 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+生死:
+  label: 生死
+  permalink: /生死
+  description: 生與死
+
+年少輕狂:
+  label: 年少輕狂
+  permalink: /年少輕狂
+  description: 國高中時期寫的文章
+
+programming:
+  label: Programming
+  permalink: /programming
+  description: 程式設計相關文章
+
+music:
+  label: Music
+  permalink: /music
+  description: 音樂相關
+
+social:
+  label: 社交
+  permalink: /social
+  description: 社交相關

@@ -10,6 +10,8 @@ date: 2025-08-16
 
 苦於排解心中對於死別的鬱悶睡不著覺，最後[在 Threads 上發了貼文詢問書單](https://www.threads.com/@shen.jing/post/DNJYuk1zJOh?sort_order=recent)：
 
+<!-- truncate -->
+
 ### 書單
 
 - (@iris20016666)《廚房》、《令人著迷的生與死》、《奶奶的夏威夷祭祀》、《人》、《在我墳上起舞》

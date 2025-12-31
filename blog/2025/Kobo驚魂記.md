@@ -1,7 +1,7 @@
 ---
 slug: kobo-highlights-lost
 title: 【記錄】Kobo 劃記遺失驚魂記
-tags: [Programming]
+tags: [programming]
 date: 2025-10-01
 ---
 
@@ -12,6 +12,8 @@ date: 2025-10-01
 
 不過問題是我不太想再增加我手上的訂閱產品了，雖然 6 鎂 / 月看似還好，但累積起來也是挺可觀的……而且當時還不確定自己能不能堅持閱讀的習慣。  
 那時剛好有訂 Perplexity 付費版，於是就趁這個機會和它協作出一個也能匯出劃記到 Notion 書庫、每日寄出 email 的小腳本。
+
+<!-- truncate -->
 
 ### export-kobo 小成果
 
@@ -81,7 +83,7 @@ SELECT DISTINCT Bookmark.VolumeID, content.BookTitle, content.ISBN FROM Bookmark
 | baf25480-5f8d-48e4-b0d7-bbd004c64f8f | 6           | application/x-kobo-epub+zip | NULL   |
 
 其他則像是記錄書的章節內容（此時會和 `VolumeID` 會和 `BookId` 吻合），會有兩筆資料用 `Title` 分別記錄「第13章　有魔法的箴言」和「xhtml/p-013.xhtml」相似的資料，只差在 `ContentType` 不同：  
-![alt text](image.png)
+![ContentType](/img/img_Kobo/sqlite_ContentType.png)
 
 此時我猜把 Bookmark 表中的 `StartContainerPath` 結合這裡看到的章節資訊，應該可以做到完全的劃記排序？
 
