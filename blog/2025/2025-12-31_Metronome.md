@@ -14,6 +14,8 @@ date: 2025-12-31
 
 開源專案傳送門（含 README）：https://github.com/Shen-Jing/metronome  
 
+<!-- truncate -->
+
 大概歷經了幾次來回改進需求：  
 
 - 不知道 BPM 該調多快：提供自定義最小的每格節奏速度 (Subdivision BPM)

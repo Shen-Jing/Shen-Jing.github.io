@@ -23,7 +23,7 @@ date: 2025-10-01
 ![talk](/img/img_Kobo/Notion_Highlights.png)
 
 還有我愛的複習功能：  
-![review](/img/img_Kobo/to_email.jpg)
+![review](/img/img_Kobo/to_email.png)
 
 #### 主要難點
 
