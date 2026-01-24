@@ -1,11 +1,8 @@
 ---
 id: Dopamine Nation
-sidebar_position: 3
 title: 《多巴胺國度》意識、了解、面對成癮
 draft: true
 ---
-
-# 《多巴胺國度》意識、了解、面對成癮
 
 :::info
 - Release Date: Mar 4, 2023 (原文 2021)

@@ -1,6 +1,5 @@
 ---
-id: Mushoku Tensei
-sidebar_position: 3
+id: MushokuTensei
 title: 《無職轉生～到了異世界就拿出真本事～》將異世界故事完整地講述
 draft: true
 ---
@@ -8,12 +7,12 @@ draft: true
 # 《無職轉生～到了異世界就拿出真本事～》
 
 :::info
-- Release Date: Mar 4, 2023 (原文 2021)
-- Purchase Date: Feb 4, 2025
+- Release Date:
+- Purchase Date: Sep 14, 2024
 - Completion Date: Oct 11, 2025
 :::
 
-#### 先打預防針：  
+### 預防針
 
 （以下不會劇透動畫進度以外的部分）
 關於主角某些行為的爭議性，確實就挺噁男的，不過篇幅上比較只有前段有出現，佔全部應該只有 1% 吧。網路上已經有很多人吵過一輪，這裡就不多談。以下只是想就我從小說字裡行間感受到的發表感想而已，供有考慮入坑小說的人參考！  
