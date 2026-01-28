@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
+import { useColorMode } from '@docusaurus/theme-common'; // 用來偵測目前的深色/淺色模式
 import BlogPostItemContainer from '@theme/BlogPostItem/Container';
 import BlogPostItemHeader from '@theme/BlogPostItem/Header';
 import BlogPostItemContent from '@theme/BlogPostItem/Content';
@@ -12,6 +13,8 @@ function useContainerClassName() {
   return !isBlogPostPage ? 'margin-bottom--xl' : undefined;
 }
 export default function BlogPostItem({children, className}) {
+  // 取得目前的顏色模式 ('light' 或 'dark')
+  const { colorMode } = useColorMode();
   const containerClassName = useContainerClassName();
   return (
     <BlogPostItemContainer className={clsx(containerClassName, className)}>
@@ -28,7 +31,7 @@ export default function BlogPostItem({children, className}) {
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="top"
-        theme="preferred_color_scheme"
+        theme={colorMode}
         lang="zh-TW"
         loading="lazy"
         crossorigin="anonymous"
