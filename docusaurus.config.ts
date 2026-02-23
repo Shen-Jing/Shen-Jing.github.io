@@ -125,6 +125,17 @@ const config: Config = {
         disableInDev: false,   // 是否在開發模式禁用
       }
     ],
+    () => ({
+      name: 'resolve-symlinks',
+      configureWebpack() {
+        return {
+          resolve: {
+            // 告訴 Webpack：不要把軟連結看透，把它們當成獨立檔案處理
+            symlinks: false,
+          },
+        };
+      },
+    }),
   ],
   themes: [
     [

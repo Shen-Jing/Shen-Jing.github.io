@@ -1,0 +1,1 @@
+/home/shenjing/Docusaurus_blog/mediashelf/books/novel/2026-02-06_TheStranger.md
