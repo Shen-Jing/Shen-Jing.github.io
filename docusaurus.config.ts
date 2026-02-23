@@ -130,7 +130,6 @@ const config: Config = {
       configureWebpack() {
         return {
           resolve: {
-            // 告訴 Webpack：不要把軟連結看透，把它們當成獨立檔案處理
             symlinks: false,
           },
         };
