@@ -1,6 +1,7 @@
 ---
-id: L'Étranger
+slug: /reading/The-Stranger
 title: 怕熱的《異鄉人》
+date: 2026-02-06
 ---
 
 :::info
