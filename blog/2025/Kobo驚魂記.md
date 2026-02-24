@@ -1,6 +1,6 @@
 ---
 slug: kobo-highlights-lost
-title: 【記錄】Kobo 劃記遺失驚魂記
+title: Kobo 劃記遺失驚魂記
 tags: [programming]
 date: 2025-10-01
 ---

@@ -1,6 +1,6 @@
 ---
 slug: Metronome
-title: 【音樂】Vibe Coding：節奏機
+title: Vibe Coding：節奏機
 tags: [music, programming]
 date: 2025-12-31
 ---

@@ -1,15 +1,17 @@
 ---
 slug: Privilege
-title: 【札記】Privilege 霹靂力矩
+title: Privilege 霹靂力矩
 #tags: []
 date: 2025-12-30
+draft: true
 ---
 
 最近 Threads 掀起一波關於「Privilege」的討論，有些串甚至演變成開地圖砲、明顯有敵意的程度了（現在的社群平台總是容易淪為口水戰的地方，唉）。  
 
 先聊一下 privilege 的翻譯，有人說特權（這也是火藥味較濃之處），也有人說優勢 (advantage)，我看下來最喜歡的是微音譯的[「霹靂力矩」](https://www.threads.com/@yp_cats6/post/DSyq5Bjk4D1?xmt=AQF0vK0W8xJ4WspUUFe3BAs_gz6FZzSnAt_jhElGtQl6bYoAbWgi2IINftB4K4kBxEZrC9M&slof=1)：
 
-> 霹靂力矩：能讓一個人的努力產生「加乘效果」的幸運項目。
+> 霹靂力矩：能讓一個人的努力產生「加乘效果」的幸運項目。  
+
 也有網友開玩笑說能一次拼對 privilege 本身就是 privilege；也有自嘲自己需要先 Google 單字意思的（懂得 Google 也是種優勢😎我喜歡大家的幽默）  
 
 <!-- truncate -->
