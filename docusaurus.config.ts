@@ -58,6 +58,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          blogSidebarTitle: '近期文章',
+          blogSidebarCount: 'ALL', // default: 5
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
