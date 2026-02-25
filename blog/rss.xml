@@ -491,7 +491,8 @@
 <p>對方不追蹤/退追，得看我自己情感當下怎麼看待，也許會覺得難過也退追，慢慢淡出；<br>
 <!-- -->也許會覺得可惜，但仍慶幸我還有管道可以關注對方<sup><a href="https://shen-jing.github.io/blog/social-media#user-content-fn-2025-4bd3e4" id="user-content-fnref-2025-4bd3e4" data-footnote-ref="true" aria-describedby="footnote-label" class="footnoteRefStickyNavbar_i6ta">1</a></sup>。</p>
 <p>總之這種事情應該不是純粹雙向的，我還是喜歡把決定權留給對方。</p>
-<p>附上開頭提到的 threads 原文：</p>
+<p>附上開頭提到的 threads 原文（不是我的貼文）：</p>
+<p><img decoding="async" loading="lazy" alt="退追不移粉" src="https://shen-jing.github.io/assets/images/2024-06-18%E9%80%80%E8%BF%BD%E4%B8%8D%E7%A7%BB%E7%B2%89-323a6e61ac62482f7d0bb3afe2f62213.jpg" width="1080" height="819" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="近期對社群軟體的小感">近期對社群軟體的小感<a href="https://shen-jing.github.io/blog/social-media#%E8%BF%91%E6%9C%9F%E5%B0%8D%E7%A4%BE%E7%BE%A4%E8%BB%9F%E9%AB%94%E7%9A%84%E5%B0%8F%E6%84%9F" class="hash-link" aria-label="近期對社群軟體的小感的直接連結" title="近期對社群軟體的小感的直接連結" translate="no">​</a></h2>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="threads-的樹洞論與矛盾">Threads 的樹洞論與矛盾<a href="https://shen-jing.github.io/blog/social-media#threads-%E7%9A%84%E6%A8%B9%E6%B4%9E%E8%AB%96%E8%88%87%E7%9F%9B%E7%9B%BE" class="hash-link" aria-label="Threads 的樹洞論與矛盾的直接連結" title="Threads 的樹洞論與矛盾的直接連結" translate="no">​</a></h4>
 <p>之前看到有網友主張 Threads 上的貼文由於會推播給陌生人，因此尺度、力道、話題等等應該要拿捏；
@@ -529,7 +530,7 @@
             <category>社交</category>
         </item>
         <item>
-            <title><![CDATA[【Cheat Sheet】Docusaurus 記錄]]></title>
+            <title><![CDATA[(My Cheat Sheet) Docusaurus 記錄]]></title>
             <link>https://Shen-Jing.github.io/blog/Docusaurus_settings</link>
             <guid>https://Shen-Jing.github.io/blog/Docusaurus_settings</guid>
             <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
@@ -538,14 +539,22 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="文章相關">文章相關<a href="https://shen-jing.github.io/blog/Docusaurus_settings#%E6%96%87%E7%AB%A0%E7%9B%B8%E9%97%9C" class="hash-link" aria-label="文章相關的直接連結" title="文章相關的直接連結" translate="no">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="新增文章">新增文章<a href="https://shen-jing.github.io/blog/Docusaurus_settings#%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0" class="hash-link" aria-label="新增文章的直接連結" title="新增文章的直接連結" translate="no">​</a></h3>
 <ol>
-<li><code>blog/</code></li>
-<li>md 檔最前面要有 <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter" target="_blank" rel="noopener noreferrer">front matter</a></li>
-<li><code>npm run start</code> 本地測試，隨改隨見</li>
-<li><code>npm run deploy</code>（部署到 Pages）</li>
-</ol>
+<li>
+<p><code>blog/</code></p>
+</li>
+<li>
+<p>md 檔最前面要有 <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter" target="_blank" rel="noopener noreferrer">front matter</a></p>
+</li>
+<li>
+<p><code>npm run start</code> 本地測試，隨改隨見</p>
+</li>
+<li>
+<p><code>npm run deploy</code>（部署到 Pages）</p>
 <ul>
 <li>要最快看到實際改動可用無痕</li>
 </ul>
+</li>
+</ol>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="front-matter">front matter<a href="https://shen-jing.github.io/blog/Docusaurus_settings#front-matter" class="hash-link" aria-label="front matter的直接連結" title="front matter的直接連結" translate="no">​</a></h4>
 <ul>
 <li><code>slug</code>: 網址路徑（可自訂）</li>
@@ -555,6 +564,7 @@
 </ul>
 </li>
 <li><code>last_update</code>: 可和 <code>date</code> 區分</li>
+<li><code>draft: true</code>: 拖延症救星！</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a href="https://shen-jing.github.io/blog/Docusaurus_settings#references" class="hash-link" aria-label="References的直接連結" title="References的直接連結" translate="no">​</a></h3>
 <ul>
@@ -595,32 +605,6 @@
 辦完告別式的隔天晚上，不明原因突然醒來，但也想不太清楚到底是做了什麼噩夢，只留意到情緒中還帶點緬懷奶奶的餘悸。</p>
 <p>苦於排解心中對於死別的鬱悶睡不著覺，最後<a href="https://www.threads.com/@shen.jing/post/DNJYuk1zJOh?sort_order=recent" target="_blank" rel="noopener noreferrer">在 Threads 上發了貼文詢問書單</a>：</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="書單">書單<a href="https://shen-jing.github.io/blog/embracing-grief-reading-list#%E6%9B%B8%E5%96%AE" class="hash-link" aria-label="書單的直接連結" title="書單的直接連結" translate="no">​</a></h3>
-<ul>
-<li>(@iris20016666)《廚房》、《令人著迷的生與死》、《奶奶的夏威夷祭祀》、《人》、《在我墳上起舞》</li>
-<li>(@ecilaaliceecilaalice)《安寧伴行》、《獅子的點心》</li>
-<li>(@janesbooknote)《當呼吸化為空氣》</li>
-<li>(@iann_2222)《在天堂遇見的五個人》、《令人著迷的生與死》</li>
-<li>(@boundary.bookstore)《在終將告別前，學習哀傷》</li>
-<li>(@ohggmei)《歡迎入住，廢柴人生旅館》</li>
-<li>(@kidneyst)《在天堂遇見的五個人》、《潛水鐘與蝴蝶》</li>
-<li>(@lu127707)《死給一次才知道愛》</li>
-<li>(@vietquyen2023)《獅子的點心》、《生命的停車場》</li>
-<li>(@meiching.m.liu)《西藏生死書》</li>
-<li>(@therapy_relax__health)《爺爺的天堂筆記本》</li>
-<li>(@oakybba)《沒有神也沒有佛》</li>
-</ul>]]></content:encoded>
-            <category>生死</category>
-        </item>
-        <item>
-            <title><![CDATA[【心情札記】再見爺爺奶奶]]></title>
-            <link>https://Shen-Jing.github.io/blog/farewell_grandparent</link>
-            <guid>https://Shen-Jing.github.io/blog/farewell_grandparent</guid>
-            <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[8 月初，也就是阿公過世的 4 個月後，阿嬤也過世了。]]></description>
-            <content:encoded><![CDATA[<p>8 月初，也就是阿公過世的 4 個月後，阿嬤也過世了。
-辦完告別式的隔天晚上，不明原因突然醒來，但也想不太清楚到底是做了什麼噩夢，只留意到情緒中還帶點緬懷奶奶的餘悸。</p>
-<p>苦於排解心中對於死別的鬱悶睡不著覺，最後<a href="https://www.threads.com/@shen.jing/post/DNJYuk1zJOh?sort_order=recent" target="_blank" rel="noopener noreferrer">在 Threads 上發了貼文詢問書單</a>：</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="書單">書單<a href="https://shen-jing.github.io/blog/farewell_grandparent#%E6%9B%B8%E5%96%AE" class="hash-link" aria-label="書單的直接連結" title="書單的直接連結" translate="no">​</a></h3>
 <ul>
 <li>(@iris20016666)《廚房》、《令人著迷的生與死》、《奶奶的夏威夷祭祀》、《人》、《在我墳上起舞》</li>
 <li>(@ecilaaliceecilaalice)《安寧伴行》、《獅子的點心》</li>
