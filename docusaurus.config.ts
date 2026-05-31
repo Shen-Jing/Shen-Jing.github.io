@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Shen Jing',
   tagline: '生活與思緒的隨筆',
-  favicon: 'img/ShenJing_favicon48_48.png',
+  favicon: 'img/ShenJing_favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -74,12 +74,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/ShneJing_social-card_1200_800.png',
+    image: 'img/ShenJing_social-card.png',
     navbar: {
       title: 'Shen Jing',
       logo: {
         alt: '審經，偶爾神經',
-        src: 'img/ShenJing_logo_120_80.png',
+        src: 'img/ShenJing_social-card.png',
       },
       items: [
         {to: '/blog', label: '貼文', position: 'left'},
@@ -116,6 +116,8 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    lastUpdated: true,
+    showLastUpdateTime: true,
   } satisfies Preset.ThemeConfig,
 
   plugins: [
