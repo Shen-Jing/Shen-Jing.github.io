@@ -27,14 +27,21 @@ const config: Config = {
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'ignore',
+
+  markdown: {
+    // @ts-ignore: This option is required to fix the deprecation warning, but not yet present in the config type
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-TW',
-    locales: ['zh-TW', 'en'],
+    locales: ['zh-TW'],
   },
 
   presets: [
@@ -146,6 +153,8 @@ const config: Config = {
       {
         hashed: true,
         language: ["en", "zh"],
+        docsRouteBasePath: "mediashelf",
+        docsDir: "mediashelf",
       },
     ],
   ],
