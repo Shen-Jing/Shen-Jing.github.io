@@ -34,7 +34,6 @@ export default function LayoutWrapper(props) {
           
           lang="zh-TW"
           loading="lazy"
-          crossorigin="anonymous"
         />
       </div>
     </>
