@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_blog=self.webpackChunkdocusaurus_blog||[]).push([["7182"],{1063(e,u,s){s.d(u,{A:()=>t});var a=s(4848);s(6540);var l=s(1215),i=s(7833);let t={...l.A,YouTube:e=>(0,a.jsx)("div",{className:"youtube-container",style:{margin:"20px 0"},children:(0,a.jsx)(i.Ay,{id:e.id,title:e.title||"YouTube video player",...e})})}}}]);
