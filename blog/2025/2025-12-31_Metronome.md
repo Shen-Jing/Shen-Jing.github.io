@@ -14,7 +14,7 @@ date: 2025-12-31
 
 開源專案傳送門（含 README）：https://github.com/Shen-Jing/metronome  
 
-<!-- truncate -->
+{/* truncate */}
 
 大概歷經了幾次來回改進需求：  
 
