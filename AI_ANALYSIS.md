@@ -16,6 +16,16 @@
 
 ## 偶爾 sync 到最新 main
 
+最簡單的方式是直接跑腳本（下面那串步驟的自動化版本，會自動處理罕見的衝突）：
+
+```bash
+./sync-ai-analysis.sh            # fetch → 切到 ai-analysis → 併 main → push
+./sync-ai-analysis.sh --no-push  # 只在本地同步，不要 push
+./sync-ai-analysis.sh -h         # 看完整說明
+```
+
+它做的事等同於下面這幾步：
+
 ```bash
 git checkout ai-analysis
 git fetch origin
