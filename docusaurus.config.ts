@@ -158,6 +158,9 @@ const config: Config = {
       },
     ],
   ],
+  clientModules: [
+    './src/clientModules/footnoteTooltip.ts',
+  ],
 };
 
 export default config;
