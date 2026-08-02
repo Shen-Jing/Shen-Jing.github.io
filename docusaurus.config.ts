@@ -1,13 +1,15 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
   title: 'Shen Jing',
   tagline: '生活與思緒的隨筆',
-  favicon: 'img/ShenJing_favicon.png',
+  favicon: 'img/Jing_byYuushi.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -54,6 +56,8 @@ const config: Config = {
           path: 'mediashelf',
           // URL route
           routeBasePath: 'mediashelf',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -61,6 +65,8 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -79,14 +85,21 @@ const config: Config = {
     ],
   ],
 
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.css',
+      type: 'text/css',
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/ShenJing_social-card.png',
+    image: 'img/Jing_byYuushi.png',
     navbar: {
       title: 'Shen Jing',
       logo: {
         alt: '審經，偶爾神經',
-        src: 'img/ShenJing_social-card.png',
+        src: 'img/Jing_byYuushi.png',
       },
       items: [
         {to: '/blog', label: '貼文', position: 'left'},

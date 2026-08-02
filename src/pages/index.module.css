@@ -4,15 +4,52 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 3rem 0 0;
   position: relative;
   overflow: hidden;
 }
 
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(2rem, 7vw, 6rem);
+}
+
+.heroText {
+  text-align: left;
+}
+
+.heroImage {
+  display: block;
+  width: clamp(190px, 24vw, 289px);
+  height: auto;
+  align-self: flex-end;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 2rem 1.5rem 0;
+  }
+
+  .heroContent {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .heroContent {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .heroText {
+    text-align: center;
+  }
+
+  .heroImage {
+    width: min(72vw, 240px);
+    align-self: center;
   }
 }
 
