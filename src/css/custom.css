@@ -28,3 +28,32 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Tippy.js Custom Theme for Footnotes */
+.tippy-box[data-theme~='docusaurus'] {
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 0.9em;
+  padding: 0.2rem 0.5rem;
+}
+
+[data-theme='dark'] .tippy-box[data-theme~='docusaurus'] {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.tippy-box[data-theme~='docusaurus'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: var(--ifm-color-emphasis-200);
+}
+.tippy-box[data-theme~='docusaurus'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: var(--ifm-color-emphasis-200);
+}
+.tippy-box[data-theme~='docusaurus'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: var(--ifm-color-emphasis-200);
+}
+.tippy-box[data-theme~='docusaurus'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: var(--ifm-color-emphasis-200);
+}
